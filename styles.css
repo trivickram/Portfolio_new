@@ -193,7 +193,7 @@ section {
     position: relative;
     width: 32.8rem;
 }
-.container2{
+ .container2{
     width: 100%;
     height:7vh;
     display: flex;
@@ -207,7 +207,21 @@ section {
 }
 .auto-type{
     color: red;
+} 
+@media(max-width: 777px) {
+    .auto-type{
+        display: none !important;
+
+    }
+    .type-writer{
+        display: none !important;
+    }
+    .container2{
+        display: none !important;
+    }
 }
+
+
 .home-content .text-animate h3 {
     font-size: 3.2rem;
     font-weight: 700;
