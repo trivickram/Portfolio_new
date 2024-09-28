@@ -511,10 +511,10 @@ span {
     transition: .5s;
 }
 
-.skills-box .skills-content :hover::before {
+/* .skills-box .skills-content :hover::before {
     width: 100%;
 }
-
+ */
 
 .skills-content .progress {
     padding: 1rem 0;
